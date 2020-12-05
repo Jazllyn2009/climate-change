@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthen Store</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+
+        <a href="index.html" class="active"> Home</a>
+        <a href="facts.html">Facts</a>
+        <a href="explore.html">Explore</a>
+        <a href="solu.html">Solutions</a>
+        <a href="reso.html">Resources</a>
+        <a href="why.html">Why?</a>
+        <a href="green.html">Greenhouse Gases</a>
+        <a href="vid.html">Videos</a>
+        <a href="job.html">Jobs on this</a>
+        <a href="store.html">Shop With Us</a>
+        <a href="states.html">States</a>
+        <a href="moral.html">Game time!</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <header>
+        <img id="logo" src="https://res.cloudinary.com/druycclhz/image/upload/v1606540736/download_h2kdea.png" alt="">
+    </header>
+    <div class="top container ">
+        <h1>Welcome to Earthen!</h1><br>
+        <p>Select your eco-friendly things, confirm your mobile number <br> and get them delivered in 30 mins </b></p>
+        <br>
+        <div class="button store"> <a href="#table"> <b>What’s in store?</b> </a> </div>
+    </div>
+    <div class="table container">
+        <h2>Here’s What Is In Store Today</h2>
+        <table id="table">
+            <tr>
+                <th>SELECT</th>
+                <th>ITEM</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                
+                <th>QUANTITY</th>
+            </tr>
+            <tr>
+               
+
+                <td><input type="checkbox" name="" id="checkbox"></td>
+                <td><img src="https://images-na.ssl-images-amazon.com/images/I/41oo8FK0J3L.jpg" alt=""></td>
+                <td>Solar Panels</td>
+                <td>INR 50/- Per Piece</td>
+               
+                <td><input id="quantity" type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="checkbox"></td>
+                <td><img src="https://www.resilience.org/wp-content/uploads/2020/07/file-1.png" alt=""></td>
+                <td>Solar Oven</td>
+                <td>INR 90/- Per Piece</td>
+               
+                <td><input id="quantity" type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="checkbox"></td>
+                <td><img src="https://i.ytimg.com/vi/5ivxw8XnhBU/maxresdefault.jpg" alt=""></td>
+                <td>No-Pollution Crackers</td>
+                <td>INR 100/- Per Set</td>
+               
+                <td><input id="quantity" type="number"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="checkbox"></td>
+                <td><img src="https://www.productpackagingsupplies.com/media/ecom/prodlg/Reusable-Canvas-Shopping-Bag-with-Handles_300.jpg" alt=""></td>
+                <td>Reuasable cloth bags</td>
+                <td>INR 25/- Per Piece</td>
+            
+                <td><input id="quantity" type="number"></td>
+            </tr>
+        </table>
+        <br><br>
+        <p>One last step to place your order. <br> Enter your mobile number and you are done!</p>
+
+        <br>
+        <input type="text" id="mobile" placeholder="Enter your mobile number">
+        <br><br>
+        <div class="button" onclick="buy" id="buy-now"> <b>Buy Now</b> </div>
+        <h3 id="thanks">Thank You For Shopping With Earthen 🌎 </h3>
+        <br><br>
+        <footer>
+            <p>Made with ❤️ by ProGrad junior, Jazllyn Akshika</p>
+        </footer>
+    </div>
+   
+
+    <script src="store.js"></script>
+</body>
+
+</html>
